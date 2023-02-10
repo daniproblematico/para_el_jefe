@@ -78,7 +78,8 @@ for n in pisos:
             x=datos["nodos"][nodox][0]
             y=datos["nodos"][nodox][1]
             nodo=Node(n.lvl_id,nodox,x,y,z)
-            print(nodo)
+            #visualiza la creación de objetos nodo
+            #print(nodo)
             obnodos.append(nodo)
 
 #número de nodos creados, número de nodos en el archivo .geom
